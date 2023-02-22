@@ -33,7 +33,8 @@
 	- Customer ID
 	- Name
 	- Project they are associated with
-	- Payment to company for project 
+	- Payment to company for project
+	- email 
 	- Active Customer or not
 	
 	
