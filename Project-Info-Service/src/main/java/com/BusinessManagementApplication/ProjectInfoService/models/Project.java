@@ -1,15 +1,30 @@
 package com.BusinessManagementApplication.ProjectInfoService.models;
 
+import javax.persistence.*;
 import java.time.LocalDate;
-
+@Entity
+@Table(name = "projects")
 public class Project {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "projectID")
     private Long projectID;
+    @Column(name = "name")
     private String name;
+    @Column(name = "profit")
     private String profit;
+    @Column(name = "client")
+
     private String client;
+    @Column(name = "description")
     private String description;
+    @Column(name = "startDate")
     private LocalDate startDate;
+
+    @Column(name = "completionDate")
     private LocalDate completionDate;
+
+    @Column(name = "projectManager")
     private String projectManager;
 
     public Project() {}

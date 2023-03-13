@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Business-Admin-Service/Business-Admin-Service.iml" filepath="$PROJECT_DIR$/Business-Admin-Service/Business-Admin-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Business_Management_Application.iml" filepath="$PROJECT_DIR$/.idea/Business_Management_Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/Customer-Info-Service/Customer-Info-Service.iml" filepath="$PROJECT_DIR$/Customer-Info-Service/Customer-Info-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Discovery-Server/Discovery-Server.iml" filepath="$PROJECT_DIR$/Discovery-Server/Discovery-Server.iml" />

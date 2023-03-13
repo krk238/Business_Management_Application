@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.BusinessManagementApplication</groupId>
-	<artifactId>Employee-Info-Service</artifactId>
+	<artifactId>Business-Admin-Service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Employee-Info-Service</name>
-	<description>This is the microservice for Employees.</description>
+	<name>Business-Admin-Service</name>
+	<description>This is the business admin service</description>
 	<properties>
 		<java.version>19</java.version>
 		<spring-cloud.version>2022.0.1</spring-cloud.version>
@@ -32,18 +32,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.32</version>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.persistence</groupId>
-			<artifactId>javax.persistence-api</artifactId>
-			<version>2.2</version>
 		</dependency>
 	</dependencies>
 

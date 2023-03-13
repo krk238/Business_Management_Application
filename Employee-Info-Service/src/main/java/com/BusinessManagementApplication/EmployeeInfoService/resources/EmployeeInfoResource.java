@@ -13,9 +13,9 @@ import java.util.List;
 @RestController
 public class EmployeeInfoResource {
     List<Employee> employees = Arrays.asList(
-            new Employee(1111L, "Kamil Khan", "Senior Developer", new BigDecimal(100000.00), "Michael Scott", 1234L, LocalDate.now(), null),
-            new Employee(2222L, "Jason Clark", "Systems Administrator", new BigDecimal(105000.00), "Michael Scott", 1234L, LocalDate.now(), null),
-            new Employee(3333L, "Michael Scott", "CTO", new BigDecimal(105000.00), "Alex Bateman", 1234L, LocalDate.now(), null)
+            new Employee(1111L, "Kamil", "Khan", "Senior Developer", new BigDecimal(100000.00), "Michael Scott", 1234L, LocalDate.now(), null),
+            new Employee(2222L, "Jason", "Clark", "Systems Administrator", new BigDecimal(105000.00), "Michael Scott", 1234L, LocalDate.now(), null),
+            new Employee(3333L, "Michael", "Scott", "CTO", new BigDecimal(105000.00), "Alex Bateman", 1234L, LocalDate.now(), null)
     );
 
     @RequestMapping("/employees")

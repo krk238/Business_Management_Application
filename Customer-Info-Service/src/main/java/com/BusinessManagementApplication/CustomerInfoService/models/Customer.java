@@ -1,13 +1,30 @@
 package com.BusinessManagementApplication.CustomerInfoService.models;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 
+@Entity
+@Table(name = "customers")
 public class Customer {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "customerID")
     private Long customerID;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "customerProjectID")
     private Long CustomerProjectID;
+
+    @Column(name = "paymentFromCustomerForProject")
     private BigDecimal paymentFromCustomerForProject;
+
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "active")
     private Boolean active;
 
     public Customer() {
@@ -26,6 +43,8 @@ public class Customer {
         this.email = email;
         this.active = active;
     }
+
+
 
     public Long getCustomerID() {
         return customerID;
